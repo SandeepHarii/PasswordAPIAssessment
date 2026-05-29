@@ -7,11 +7,17 @@ Developer: Sandeep Hari
 Project: Warp Development Password API Assessment
 Language: C# (.NET 8)
 
+Code Date : 28 May 2026
+
+Updates : 28 May 2026 - Initial development and testing
+          29 May 2026 - Final code cleanup and documentation
+
 Program Purpose:
 This console application:
 
 1. Generates password permutations
-2. Saves them into dict.txt
+2. Saves them into dict.txt to the sytems default Enviroment Folder.
+   e.g on Windows it will be "C:\Users\Username\AppData\Roaming\PasswordAPI_SH\dict.txt"
 3. Attempts authentication against the Warp API
 4. Creates a ZIP package containing:
    - Source code

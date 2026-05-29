@@ -16,6 +16,19 @@ A SAFE MODE is included so the project can be fully tested locally without makin
 
 ---
 
+## Important Documentation
+
+👉 HTG (Project Explanation): [Open Here](Assets/HTG.pdf)
+👉 CV: [Open Here](Assets/CV.pdf)
+
+---
+
+## Architecture Flow
+
+Generator → Auth Client → Zip Builder → Encoder → Upload Client
+
+---
+
 ## Project Structure
 
 ```
@@ -31,8 +44,8 @@ PasswordAPIAssessment/
 ├── PasswordAPIAssessment.csproj
 │
 ├── Assets/
-│   ├── CV Sandeep Hari (Junior Dev).pdf
-│   └── Password API Assessment – How Things Got Done (HTG).pdf
+│   ├── CV.pdf
+│   └── HTG.pdf
 │
 ├── Data/
 │   └── dict.txt (generated at runtime)
@@ -66,14 +79,14 @@ PasswordAPIAssessment/
 
 SAFE MODE (default):
 
-* No API calls are made
+* No external API calls are made
 * ZIP is created locally for inspection
 * Used for debugging and validation
 
 LIVE MODE:
 
-* Performs authentication
-* Uploads final ZIP to API
+* Performs authentication against API
+* Uploads final ZIP to endpoint
 
 ```csharp
 bool isLive = false;
@@ -83,17 +96,10 @@ bool isLive = false;
 
 ## Scripts
 
-The project includes automation scripts for Git workflow:
+Helper scripts used during development (optional, not required for execution):
 
-### PushFirst.bat
-
-* Initial commit and push to GitHub repository
-
-### PushUpdate.bat
-
-* Used for subsequent commits and updates
-
-These scripts help streamline development and maintain consistent commit history.
+* PushFirst.bat → initial commit and push setup
+* PushUpdate.bat → subsequent updates
 
 ---
 
@@ -101,9 +107,8 @@ These scripts help streamline development and maintain consistent commit history
 
 * dict.txt → generated password list (ignored in Git)
 * PasswordAPIAssessment_Submission.zip → final packaged output (SAFE MODE only)
-* CV Sandeep Hari (Junior Dev).pdf → included in final ZIP package
-* Password API Assessment – How Things Got Done (HTG).pdf → included in Assets folder
-* API response → upload result (LIVE MODE)
+* CV.pdf → included in final ZIP package
+* HTG.pdf → project explanation document
 
 ---
 
@@ -125,4 +130,12 @@ This ensures only source code and documentation are tracked.
 
 * Ensure SAFE MODE is enabled before running locally
 * Always verify ZIP contents before switching to LIVE MODE
-* Keep scripts and structure consistent for reproducibility
+* Keep structure consistent for reproducibility
+* Do not commit build artifacts or IDE-specific files
+
+---
+
+## Final Note
+
+This project demonstrates end-to-end automation of authentication, file packaging, and API submission using C#.
+It is designed to be readable, modular, and easy to validate for assessment review purposes.
