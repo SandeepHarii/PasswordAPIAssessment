@@ -1,0 +1,30 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider / JetBrains
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Output files (your generated artifacts)
+Data/dict.txt
+*.zip
+
+# Publish folders
+publish/
+
+# Local debug output
+*.exe
+*.dll
+*.pdb
