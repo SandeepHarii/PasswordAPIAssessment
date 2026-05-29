@@ -4,8 +4,13 @@ obj/
 
 # Visual Studio
 .vs/
+bin/
+obj/
 *.user
 *.suo
+*.db
+*.cache
+*.vsidx
 
 # Rider / JetBrains
 .idea/

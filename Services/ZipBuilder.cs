@@ -4,31 +4,24 @@ using System.IO.Compression;
 
 /*
 ------------------------------------------------------------
-Developer: Sandeep Hari
-File: ZipBuilder.cs
+ZIP Builder
 
 Purpose:
-Creates the final submission ZIP file containing:
-
-- Source code (entire project folder)
-- Assets (CV, HTG, etc.)
-- Generated dictionary (dict.txt)
-
-Important rules:
-- Excludes build/cache folders
-- Prevents recursive ZIP inclusion
-- Avoids duplicate file issues
+- Packages:
+  - Source code
+  - Assets
+  - Dictionary file
+- Excludes build artifacts
 ------------------------------------------------------------
 */
 
 public static class ZipBuilder
 {
-    /*
-    Creates ZIP archive in memory
-    */
     public static byte[] CreateZip(string projectRoot, string excludeFolder)
     {
-        Console.WriteLine("\n[ZIP] Building zip...");
+        Console.WriteLine("\n==================================================");
+        Console.WriteLine("BUILDING ZIP PACKAGE");
+        Console.WriteLine("==================================================");
 
         using var ms = new MemoryStream();
 
@@ -37,14 +30,11 @@ public static class ZipBuilder
             AddDirectory(zip, projectRoot, excludeFolder);
         }
 
-        Console.WriteLine("[ZIP] Build complete ✔");
+        Console.WriteLine("ZIP BUILD COMPLETE ✅");
 
         return ms.ToArray();
     }
 
-    /*
-    Recursively adds all project files into ZIP
-    */
     private static void AddDirectory(
         ZipArchive zip,
         string folder,
@@ -61,9 +51,6 @@ public static class ZipBuilder
         }
     }
 
-    /*
-    Filters out unwanted files
-    */
     private static bool IsIgnored(string file, string excludeFolder)
     {
         file = file.Replace("/", "\\");
@@ -77,15 +64,12 @@ public static class ZipBuilder
                file.EndsWith(".zip");
     }
 
-    /*
-    Adds a single file into ZIP archive
-    */
     private static void AddFile(ZipArchive zip, string filePath, string entryName)
     {
         if (!File.Exists(filePath))
             return;
 
-        Console.WriteLine($"[ZIP] Adding: {entryName}");
+        Console.WriteLine($"ADDING: {entryName}");
 
         var entry = zip.CreateEntry(entryName, CompressionLevel.Optimal);
 
@@ -95,9 +79,6 @@ public static class ZipBuilder
         fileStream.CopyTo(entryStream);
     }
 
-    /*
-    Converts ZIP byte array into Base64 string
-    */
     public static string ToBase64(byte[] zipBytes)
     {
         return Convert.ToBase64String(zipBytes);
