@@ -34,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UploadClient.cs",
-              "DocumentMoniker": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Services\\UploadClient.cs",
-              "RelativeDocumentMoniker": "Services\\UploadClient.cs",
-              "ToolTip": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Services\\UploadClient.cs",
-              "RelativeToolTip": "Services\\UploadClient.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAqwEMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T09:09:40.221Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -105,10 +92,22 @@
               "RelativeDocumentMoniker": "Services\\ZipBuilder.cs",
               "ToolTip": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Services\\ZipBuilder.cs",
               "RelativeToolTip": "Services\\ZipBuilder.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAqwGgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-29T09:09:53.225Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UploadClient.cs",
+              "DocumentMoniker": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Services\\UploadClient.cs",
+              "RelativeDocumentMoniker": "Services\\UploadClient.cs",
+              "ToolTip": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Services\\UploadClient.cs",
+              "RelativeToolTip": "Services\\UploadClient.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T09:09:40.221Z"
             }
           ]
         }
