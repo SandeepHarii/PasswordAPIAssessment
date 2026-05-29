@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1DF80B52-6245-45BA-9D81-3D14A5975EF6}|PasswordAPIAssessment.csproj|d:\\sandeep data\\codingtasks\\passwordapiassessment\\services\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF80B52-6245-45BA-9D81-3D14A5975EF6}|PasswordAPIAssessment.csproj|solutionrelative:services\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1DF80B52-6245-45BA-9D81-3D14A5975EF6}|PasswordAPIAssessment.csproj|d:\\sandeep data\\codingtasks\\passwordapiassessment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DF80B52-6245-45BA-9D81-3D14A5975EF6}|PasswordAPIAssessment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1DF80B52-6245-45BA-9D81-3D14A5975EF6}|PasswordAPIAssessment.csproj|d:\\sandeep data\\codingtasks\\passwordapiassessment\\services\\uploadclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DF80B52-6245-45BA-9D81-3D14A5975EF6}|PasswordAPIAssessment.csproj|solutionrelative:services\\uploadclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DF80B52-6245-45BA-9D81-3D14A5975EF6}|PasswordAPIAssessment.csproj|d:\\sandeep data\\codingtasks\\passwordapiassessment\\services\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DF80B52-6245-45BA-9D81-3D14A5975EF6}|PasswordAPIAssessment.csproj|solutionrelative:services\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DF80B52-6245-45BA-9D81-3D14A5975EF6}|PasswordAPIAssessment.csproj|d:\\sandeep data\\codingtasks\\passwordapiassessment\\services\\authclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,24 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ZipBuilder.cs",
-              "DocumentMoniker": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Services\\ZipBuilder.cs",
-              "RelativeDocumentMoniker": "Services\\ZipBuilder.cs",
-              "ToolTip": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Services\\ZipBuilder.cs",
-              "RelativeToolTip": "Services\\ZipBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T09:09:53.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UploadClient.cs",
               "DocumentMoniker": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Services\\UploadClient.cs",
               "RelativeDocumentMoniker": "Services\\UploadClient.cs",
@@ -59,18 +46,17 @@
               "RelativeToolTip": "Services\\UploadClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T09:09:40.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-29T09:09:40.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PasswordGenerator.cs",
               "DocumentMoniker": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Services\\PasswordGenerator.cs",
               "RelativeDocumentMoniker": "Services\\PasswordGenerator.cs",
               "ToolTip": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Services\\PasswordGenerator.cs",
               "RelativeToolTip": "Services\\PasswordGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAIwJ4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-29T09:09:31.564Z",
               "EditorCaption": ""
@@ -85,25 +71,23 @@
               "RelativeToolTip": "Services\\AuthClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T09:09:13.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-29T09:09:13.719Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PasswordAPIAssessment",
+              "Title": "PasswordAPIAssessment.csproj",
               "DocumentMoniker": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\PasswordAPIAssessment.csproj",
               "RelativeDocumentMoniker": "PasswordAPIAssessment.csproj",
               "ToolTip": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\PasswordAPIAssessment.csproj",
               "RelativeToolTip": "PasswordAPIAssessment.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-29T09:08:52.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-29T09:08:52.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -111,8 +95,19 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T09:04:41.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-29T09:04:41.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ZipBuilder.cs",
+              "DocumentMoniker": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Services\\ZipBuilder.cs",
+              "RelativeDocumentMoniker": "Services\\ZipBuilder.cs",
+              "ToolTip": "D:\\Sandeep Data\\CodingTasks\\PasswordAPIAssessment\\Services\\ZipBuilder.cs",
+              "RelativeToolTip": "Services\\ZipBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T09:09:53.225Z"
             }
           ]
         }
