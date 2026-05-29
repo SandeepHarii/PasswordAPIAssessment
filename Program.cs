@@ -43,7 +43,7 @@ class Program
         // SAFE MODE:
         // false = local testing only
         // true = real API authentication + upload
-        bool isLive = false;
+        bool isLive = true;
 
         // Finds the root folder of the project
         // This avoids issues with bin/Debug paths
