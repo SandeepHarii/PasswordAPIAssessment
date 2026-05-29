@@ -100,7 +100,7 @@ These scripts help streamline development and maintain consistent commit history
 ## Output Files
 
 * dict.txt → generated password list (ignored in Git)
-* LOCAL_TEST.zip / Submission.zip → final packaged output (SAFE MODE only)
+* PasswordAPIAssessment_Submission.zip → final packaged output (SAFE MODE only)
 * CV Sandeep Hari (Junior Dev).pdf → included in final ZIP package
 * Password API Assessment – How Things Got Done (HTG).pdf → included in Assets folder
 * API response → upload result (LIVE MODE)

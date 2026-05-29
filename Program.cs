@@ -74,7 +74,7 @@ class Program
         Console.WriteLine($"TOTAL PASSWORDS: {passwords.Count}");
         Console.WriteLine("==================================================");
 
-        string zipPath = Path.Combine(appFolder, "LOCAL_TEST.zip");
+        string zipPath = Path.Combine(appFolder, "PasswordAPIAssessment_Submission.zip");
 
         // =========================================================
         // SAFE MODE
