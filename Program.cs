@@ -137,11 +137,25 @@ class Program
 
         Console.WriteLine("ZIP CREATED ✅");
 
+        // =========================================================
+        // ZIP SIZE VALIDATION
+        // =========================================================
+
+        if (zipBytesLive.Length > 5 * 1024 * 1024)
+        {
+            Console.WriteLine("ZIP TOO LARGE (>5MB) ❌");
+            Console.WriteLine("ABORTING UPLOAD");
+            return;
+        }
+
         Console.WriteLine("\nSTEP 4 - UPLOADING");
 
         var uploader = new UploadClient();
 
-        await uploader.UploadAsync(uploadUrl, ZipBuilder.ToBase64(zipBytesLive));
+        await uploader.UploadAsync(
+            uploadUrl,
+            ZipBuilder.ToBase64(zipBytesLive)
+        );
 
         Console.WriteLine("UPLOAD COMPLETE ✅");
 
